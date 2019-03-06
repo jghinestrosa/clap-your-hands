@@ -11,7 +11,6 @@ html, body {
     display: inline-block;
     will-change: transform;
     position: absolute;
-    border: 1px solid black;
 }
 
 .clapping-hands {
