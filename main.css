@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    cursor: none;
+}
+
+.hand {
+    font-size: 5em;
+    display: inline-block;
+    will-change: transform;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.clapping-hands {
+    /* display: none; */
+}
+
+.clapping-hands::after {
+    /* content: '👏'; */
+    /* display: inline-block; */
+    /* transform: rotate(44deg); */
+}
