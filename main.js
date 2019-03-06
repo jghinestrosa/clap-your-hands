@@ -39,7 +39,10 @@
     }
   };
 
-  const mousePosition = { x: 0, y: 0 };
+  const mousePosition = {
+    x: window.innerWidth / 2 + topHandData.width,
+    y: window.innerHeight / 2
+  };
 
   function checkCollision(rect1, rect2) {
     if (rect1.x < rect2.x + rect2.width &&
