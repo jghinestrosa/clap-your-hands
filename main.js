@@ -108,10 +108,15 @@
     window.requestAnimationFrame(animate);
   }
 
-  window.addEventListener('mousemove', (e) => {
-    const { clientX, clientY } = e;
+  function handleMove({ clientX, clientY }) {
     mousePosition.x = clientX;
     mousePosition.y = clientY;
+  }
+
+  window.addEventListener('mousemove', handleMove);
+
+  window.addEventListener('touchmove', (e) => {
+    handleMove(e.touches[0]);
   });
 
   window.requestAnimationFrame(animate);
