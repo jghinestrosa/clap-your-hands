@@ -4,8 +4,13 @@
   "description": "Clap your hands",
   "main": "main.js",
   "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jorge Garcia Hinestrosa",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^1.12.2"
+  }
 }
