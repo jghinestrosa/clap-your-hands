@@ -1,26 +1,22 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-    cursor: none;
-    position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  cursor: none;
+  position: fixed;
 }
 
 .hand {
-    /* 2.8em in Chrome for Android */
+  /* 2.8em in Chrome for Android */
+  font-size: 2.8em;
+  display: inline-block;
+  will-change: transform;
+  position: absolute;
+}
+
+@media (min-width: 1025px) {
+  .hand {
     font-size: 4.5em;
-    display: inline-block;
-    will-change: transform;
-    position: absolute;
-}
-
-.clapping-hands {
-    /* display: none; */
-}
-
-.clapping-hands::after {
-    /* content: '👏'; */
-    /* display: inline-block; */
-    /* transform: rotate(44deg); */
+  }
 }
