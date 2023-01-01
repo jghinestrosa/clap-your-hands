@@ -11,6 +11,6 @@
   "author": "Jorge Garcia Hinestrosa",
   "license": "MIT",
   "devDependencies": {
-    "parcel": "^1.12.2"
+    "parcel": "^2.8.2"
   }
 }
